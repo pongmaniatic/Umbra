@@ -41,3 +41,11 @@ if Etapa = 7
 	x = o_sol.x + lengthdir_x(256,225)
 	y = o_sol.y + lengthdir_y(256,225)
 	}	
+	
+if 	Etapa = 8
+	{
+	Etapa = 0
+	}
+	
+direction = point_direction(x,y,o_sol.x,o_sol.y)
+image_angle = direction;
