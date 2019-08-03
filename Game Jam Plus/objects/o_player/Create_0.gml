@@ -7,7 +7,7 @@ speed_player = 8
 estado_running = false
 
 // la altura del salto de mario
-altura_salto = 18
+altura_salto = 16
 
 
 // salto
