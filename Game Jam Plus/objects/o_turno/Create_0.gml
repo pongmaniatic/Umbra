@@ -1,0 +1,1 @@
+global.turno = 0
