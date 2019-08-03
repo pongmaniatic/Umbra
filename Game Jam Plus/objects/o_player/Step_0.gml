@@ -1,23 +1,17 @@
 
 
-
-//evento step 
-//teclas
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump= keyboard_check_pressed(ord("W"));
-
-//evento step 
 // cerrar juego
 if keyboard_check(vk_escape)
 	{
 	game_end();
 	}
 	
+//evento step 
+//teclas
+key_left = keyboard_check(ord("A"));
+key_right = keyboard_check(ord("D"));
+key_jump= keyboard_check_pressed(ord("W"));
 
-
-
-//movimiento
 key_left = keyboard_check(ord("A")) or keyboard_check(vk_left)
 key_right = keyboard_check(ord("D")) or keyboard_check(vk_right)
 key_jump = keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_up)
@@ -71,8 +65,6 @@ if o_player_colision_abajo.touching_floor = false
 if 	estado_running = true
 	{
 	sprite_index = s_player
-
-		
 	if key_right and o_player_colision_derecha.touching_floor = false
 		{	
 		phy_speed_x = speed_player;
@@ -81,7 +73,6 @@ if 	estado_running = true
 		{	
 		phy_speed_x = 0;
 		}
-		
 	if key_left and o_player_colision_izquierda.touching_floor = false
 		{
 		phy_speed_x = -speed_player;
@@ -101,7 +92,6 @@ if 	estado_idle = true
 if 	estado_airborne = true
 	{	
 	sprite_index = s_player	
-
 	if key_right and o_player_colision_derecha.touching_floor = false
 		{		
 		phy_speed_x = speed_player;
@@ -141,13 +131,13 @@ if !keyboard_check_released(key_left) = true and !keyboard_check_released(key_ri
 
 /////////////////jump///////////////////////////////
 
-if o_player_colision_abajo.touching_floor = true
+if o_player_colision_abajo.touching_floor = true 
 	{
 	puede_saltar = true;
 	salto_de_disign = false;
 	}
 
-if 	key_jump = true  and puede_saltar = true
+if 	key_jump = true  and puede_saltar = true 
 	{		
 	phy_speed_y =  -altura_salto
 	///////////////////////////////
@@ -157,6 +147,7 @@ if 	key_jump = true  and puede_saltar = true
 	///////////////////////////////
 	jump_start = true;	
 	}
+
 	
 // acorta el salto
 if jump_start = true and phy_speed_y < 0.1 
