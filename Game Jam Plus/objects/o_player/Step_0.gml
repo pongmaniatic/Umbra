@@ -6,9 +6,9 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_down = keyboard_check(ord("S"))
-key_up= keyboard_check_pressed(ord("W"));
+key_jump= keyboard_check_pressed(ord("W"));
 
-key_up= keyboard_check_pressed(ord("W"));
+
 /////////////////////step event//////////////////////////
 var move = key_right - key_left;
 if sign(move) = -1
