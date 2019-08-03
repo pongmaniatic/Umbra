@@ -1,23 +1,19 @@
 
 
-
-//evento Crear
-// largo del salto de coyote
-largo_salto_de_coyote = 4
-
-//velocidad jugador
+// velocidad de mario
 speed_player = 8
 
-
 // estados los estados son increiblemente utiles para muchas cosas, especialmente animaciones varias
-estado_idle = false;
-estado_running = true;
-estado_airborne = false;	
+estado_running = false
+
+// la altura del salto de mario
+altura_salto = 18
+
 
 // salto
-// el salto de coyote es una pequeña ventana de tiempo despues de dejar 
-// de tocar el suelo en la cual aun se puede saltar
-salto_de_coyote = false;
+// el salto de diseño es una pequeña ventana de tiempo despues de dejar 
+// de tocarel suelo en la cual aun se puede saltar, ayuda que se sienta bien
+salto_de_disign = false;
 
 // puede saltar o no, sualmente depende si toca el suelo o estas pisando un gumpa
 puede_saltar = true;
@@ -25,12 +21,20 @@ puede_saltar = true;
 // esto es true solamente al comienzo del salto
 jump_start = false;
 
-// direcion en la que se mira 0 es iZquierda y 1 es derecha
-mira_direccion = 1;
-
-// esto evita que el sprite rote al moverse
-phy_fixed_rotation = true;
-
-//looking right
+// direcion en la que se mira
 looking_right = true; 
 looking_left = false;
+
+// esto evita que el sprite rote al moverse
+phy_fixed_rotation = true 
+
+
+/// se crean las cajas extra de colisiones
+instance_create_depth(x,y,-50,o_player_colision_derecha)
+
+instance_create_depth(x,y,-50,o_player_colision_izquierda)
+
+instance_create_depth(x,y,-50,o_player_colision_arriba)
+
+instance_create_depth(x,y,-50,o_player_colision_abajo)
+

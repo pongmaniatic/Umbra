@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "105f6bf5-e54d-4853-9181-9215409dc397",
+            "Value": {
+                "id": "222ddbd8-6b69-42d6-becc-12ff1c15ab66",
+                "resourcePath": "objects\\o_player_colision_arriba\\o_player_colision_arriba.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1201b625-7f36-4051-a280-0c7534341a58",
+            "Value": {
+                "id": "e449e85b-8885-479d-91d3-0da5fb413123",
+                "resourcePath": "sprites\\s_colision_player_izquierda\\s_colision_player_izquierda.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14a98af4-7c61-4622-9178-84ab296da413",
             "Value": {
                 "id": "2ddca97e-bed9-4bd4-8949-cf3d8a260998",
@@ -52,6 +68,14 @@
                 "id": "c78dae06-e130-47b3-ade4-713900f69810",
                 "resourcePath": "views\\1cc63966-4a6f-4138-bc02-cdd77b314415.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1e16c5b1-4b8d-4bac-b8b5-4a76598a749c",
+            "Value": {
+                "id": "aa579aaa-21ba-48ba-beec-009d51c0d3db",
+                "resourcePath": "objects\\o_player_colision_derecha\\o_player_colision_derecha.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -71,11 +95,27 @@
             }
         },
         {
+            "Key": "4691f093-027b-4d32-936c-2b4f4f46835c",
+            "Value": {
+                "id": "90652703-cd69-4b31-a0fe-5a6a1d4373eb",
+                "resourcePath": "sprites\\s_colision_player_arriba\\s_colision_player_arriba.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60ed644d-967b-40ab-9b74-405cb402f84b",
             "Value": {
                 "id": "dba52a66-80fe-41d9-a4f1-cffc191b18e4",
                 "resourcePath": "views\\60ed644d-967b-40ab-9b74-405cb402f84b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "61daa58a-85b8-440f-a6f5-40113778e4f4",
+            "Value": {
+                "id": "b1f3b0dd-8baf-4533-abab-ba7031c8e47f",
+                "resourcePath": "sprites\\s_colision_player_abajo\\s_colision_player_abajo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -92,6 +132,14 @@
                 "id": "87145d9a-1d17-4eb0-aac4-182f1f381c97",
                 "resourcePath": "views\\6bafd7f0-6d7d-4702-a31e-5f16c85cdadb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86a02cbd-34bd-48ea-846d-77b6c3512f68",
+            "Value": {
+                "id": "73ad0b9d-983d-4049-a3f3-76dfcf2fe3c3",
+                "resourcePath": "objects\\o_player_colision_izquierda\\o_player_colision_izquierda.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,6 +191,14 @@
             }
         },
         {
+            "Key": "c8ea6ce9-23d4-427c-ab4c-62ae0a289980",
+            "Value": {
+                "id": "d3938e3b-fcf5-4c61-bb1f-f750b1947113",
+                "resourcePath": "sprites\\s_colision_player_derecha\\s_colision_player_derecha.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "200c50c0-2fcc-4a94-b9b9-99ef179dbd40",
@@ -180,6 +236,14 @@
                 "id": "1c45d939-e749-4445-9788-6403f9ca3c9e",
                 "resourcePath": "views\\df4d6c4a-08a7-40bb-a3c6-c9d6e88babd4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5a08553-a11e-4ee2-b071-1e13798dc020",
+            "Value": {
+                "id": "23a93ab5-e8a6-40d4-916c-5fe030b1e9ae",
+                "resourcePath": "objects\\o_player_colision_abajo\\o_player_colision_abajo.yy",
+                "resourceType": "GMObject"
             }
         },
         {
