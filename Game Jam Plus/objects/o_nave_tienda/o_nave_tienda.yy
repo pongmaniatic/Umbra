@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_nave_tienda",
     "eventList": [
-        
+        {
+            "id": "a6203665-4fe0-4db1-8ffb-8e9e2ee7f3fe",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "30a9f848-e5fd-4fd9-af61-a9f9d137b278"
+        },
+        {
+            "id": "e5526039-e7c3-4ee5-b484-c5c3d7a6dd9e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "30a9f848-e5fd-4fd9-af61-a9f9d137b278"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

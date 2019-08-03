@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_planeta_2",
     "eventList": [
-        
+        {
+            "id": "f69b2c7f-e6c9-450a-afa2-4302f9b9937e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "5af80921-6ad8-49c4-884e-48edd8f55471"
+        },
+        {
+            "id": "45b2ab06-8b0b-4f84-af7f-ae34b42bb507",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5af80921-6ad8-49c4-884e-48edd8f55471"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
