@@ -11,7 +11,7 @@ if global.turno = 1
 	instance_destroy(o_mira_tres_g);
 
 	// Mira, entrega de velocidad (opcional y cambiable)
-	mira_uno = instance_create_depth(x, y, 122, o_mira_uno_g);
+	mira_uno = instance_create_depth(x, y, 180, o_mira_uno_g);
 	rot_speed = mira_uno.rot_speed; // Modificar para entregar otra velocidad inicial
 	with (mira_uno)
 	{

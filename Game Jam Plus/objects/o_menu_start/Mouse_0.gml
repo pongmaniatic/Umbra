@@ -1,0 +1,1 @@
+sprite_index = Men_bot_njugar1

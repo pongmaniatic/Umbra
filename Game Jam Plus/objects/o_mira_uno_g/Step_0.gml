@@ -12,7 +12,7 @@ if (must_rotate) and (!space_check)
 
 else if (!spawned_yellow) and (space_check)
 {
-	mira_dos = instance_create_depth(x, y,  121, o_mira_dos_g);
+	mira_dos = instance_create_depth(x, y,  150, o_mira_dos_g);
 	spawned_yellow = true;
 	must_rotate = false;
 	with (mira_dos)

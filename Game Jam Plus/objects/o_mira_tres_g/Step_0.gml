@@ -18,7 +18,7 @@ if trabajo_terminado = false
 		must_rotate = false;
 		trabajo_terminado = true
 		alarm_set(0,60)
-		bala = instance_create_depth(x,y,-50,o_bala);
+		bala = instance_create_depth(x,y,110,o_bala);
 		with (bala)
 		{
 			direction = other.image_angle;

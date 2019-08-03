@@ -5,13 +5,33 @@
     "name": "o_boton_turno",
     "eventList": [
         {
-            "id": "5f944ff5-b7f9-4e9f-b822-e54c75e53938",
+            "id": "e2225612-4f39-4317-8778-01b85bffed48",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 13,
+            "eventtype": 6,
+            "m_owner": "caee45bd-9291-4417-b39b-abf9ce6c0671"
+        },
+        {
+            "id": "5dd19df8-9fa1-443e-b6b2-c07ab185a7c2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "caee45bd-9291-4417-b39b-abf9ce6c0671"
+        },
+        {
+            "id": "76ccc258-c3b4-4528-88c7-39edd813b0bd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
             "m_owner": "caee45bd-9291-4417-b39b-abf9ce6c0671"
         }
     ],
@@ -33,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7efde755-8eb3-44f3-b24d-b67d343db9dc",
+    "spriteId": "6c7cc2db-79e8-4987-8def-852a98f6085a",
     "visible": true
 }

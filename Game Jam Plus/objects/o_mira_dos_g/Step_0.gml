@@ -13,7 +13,7 @@ if (must_rotate) and (!space_check)
 
 else if (!spawned_red) and (space_check)
 {
-	mira_tres = instance_create_depth(x, y, 120,
+	mira_tres = instance_create_depth(x, y, 130,
 	o_mira_tres_g);
 	spawned_red = true;
 	must_rotate = false;
