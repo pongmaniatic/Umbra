@@ -87,11 +87,27 @@
             }
         },
         {
+            "Key": "14018896-277e-49ac-b637-fd31153f3efa",
+            "Value": {
+                "id": "a9314142-b378-48ff-8feb-754ca16d0860",
+                "resourcePath": "sprites\\Global_Jam__planeta2\\Global_Jam__planeta2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14a98af4-7c61-4622-9178-84ab296da413",
             "Value": {
                 "id": "2ddca97e-bed9-4bd4-8949-cf3d8a260998",
                 "resourcePath": "views\\14a98af4-7c61-4622-9178-84ab296da413.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1717fb1b-cc10-4e72-b1cf-fb6a86111203",
+            "Value": {
+                "id": "77531bb3-b71e-4507-ae5c-981512eec761",
+                "resourcePath": "objects\\o_mira_uno_g\\o_mira_uno_g.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -252,6 +268,14 @@
                 "id": "d3ebd061-a799-4dd1-a9df-2611a7e1f54a",
                 "resourcePath": "sounds\\Boton_1\\Boton_1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "49e391e9-3ec8-4cc6-809f-a7e0509d6c50",
+            "Value": {
+                "id": "d0606538-5b16-4374-a537-60be1db9e08c",
+                "resourcePath": "objects\\o_mira_dos_g\\o_mira_dos_g.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -535,11 +559,27 @@
             }
         },
         {
+            "Key": "a389b169-cf1c-4c69-877b-5027457b5105",
+            "Value": {
+                "id": "80275d84-514f-40eb-bad2-459f2c7b611d",
+                "resourcePath": "objects\\o_mira_tres_g\\o_mira_tres_g.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a397fa7f-a533-401a-a7a6-54119db245ef",
             "Value": {
                 "id": "f0cfe308-c2fe-4f22-9fb5-d03025abe9c2",
                 "resourcePath": "extensions\\Draw_Trail\\Draw_Trail.yy",
                 "resourceType": "GMExtension"
+            }
+        },
+        {
+            "Key": "a5f847ff-9bef-40ef-80f5-6220b2065373",
+            "Value": {
+                "id": "1437be16-1a5e-474c-ab5f-1d4143c90149",
+                "resourcePath": "sprites\\s_rango_chico\\s_rango_chico.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -556,6 +596,14 @@
                 "id": "de9abcc5-96ef-41e3-b62c-75a91a3e9da4",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "aea62e82-f6fe-433c-9a06-4b6adbe287c7",
+            "Value": {
+                "id": "c06b3f9a-cae5-40b5-99c6-a9c17fad414d",
+                "resourcePath": "sprites\\s_rango_mediano\\s_rango_mediano.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -603,6 +651,14 @@
             "Value": {
                 "id": "93c29dc0-40f2-4e71-aaf3-25ae793be03b",
                 "resourcePath": "sprites\\s_space_background_1\\s_space_background_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c7070745-e7e2-4b84-935a-acf62bf08e82",
+            "Value": {
+                "id": "85de5762-2d6a-4703-ba30-d9f34645ed61",
+                "resourcePath": "sprites\\s_rango_grande\\s_rango_grande.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -724,6 +780,14 @@
                 "id": "23a93ab5-e8a6-40d4-916c-5fe030b1e9ae",
                 "resourcePath": "objects\\o_player_colision_abajo\\o_player_colision_abajo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6db2411-61fa-41b2-9343-321b9b6f816d",
+            "Value": {
+                "id": "dd69ebb8-891a-4f2e-b85e-f2caafab34e8",
+                "resourcePath": "sprites\\Global_Jam__planeta236\\Global_Jam__planeta236.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
