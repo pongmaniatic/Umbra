@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "2cedec74-a7d3-4d47-8611-69f499bfab8c",
+            "Value": {
+                "id": "dea1af0d-b1e2-417b-8d39-9413dec90bbd",
+                "resourcePath": "objects\\o_player\\o_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "60ed644d-967b-40ab-9b74-405cb402f84b",
             "Value": {
                 "id": "dba52a66-80fe-41d9-a4f1-cffc191b18e4",
@@ -172,6 +180,14 @@
                 "id": "b748258d-5d60-45ef-a0da-070efbf1d7aa",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f46fad3a-bf62-496a-9d51-3d2853a7c277",
+            "Value": {
+                "id": "f1cfa480-b273-4ff2-9c85-a24770522992",
+                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
