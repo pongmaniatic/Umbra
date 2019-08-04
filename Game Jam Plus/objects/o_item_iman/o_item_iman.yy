@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_item_iman",
     "eventList": [
-        
+        {
+            "id": "439cb3c0-73e0-4848-afef-70617578d328",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "1f82ba36-f753-4d02-9afc-0abe40dabceb"
+        },
+        {
+            "id": "8279fd94-b185-4f4f-bfde-808844218e00",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1f82ba36-f753-4d02-9afc-0abe40dabceb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

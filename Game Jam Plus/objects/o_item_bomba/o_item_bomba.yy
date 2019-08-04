@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_item_bomba",
     "eventList": [
-        
+        {
+            "id": "fa6d1adb-5ba8-421c-b2fd-4268cf620cd4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "ba1ffebe-408e-4d65-af31-456256a2b887"
+        },
+        {
+            "id": "f3cb318d-459a-4729-9d00-8acf03b8894b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "ba1ffebe-408e-4d65-af31-456256a2b887"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
