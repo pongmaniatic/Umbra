@@ -1,4 +1,5 @@
-/// @desc Create reciever
+
+activar = true
 
 // init vars
 possible_collision = true;

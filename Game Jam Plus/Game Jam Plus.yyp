@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "09d0abbc-110c-4de0-a49b-2d738ebdaada",
+            "Value": {
+                "id": "61c81920-eeee-4451-ac55-836b6d8f245c",
+                "resourcePath": "objects\\o_item_lluvia_de_asteroides\\o_item_lluvia_de_asteroides.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a0007dd-e0e1-4d8a-9c19-b1d6bd57799f",
             "Value": {
                 "id": "1b322123-bf2a-4bb2-9f29-9194cc5ca024",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "aa579aaa-21ba-48ba-beec-009d51c0d3db",
                 "resourcePath": "objects\\o_player_colision_derecha\\o_player_colision_derecha.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1f82ba36-f753-4d02-9afc-0abe40dabceb",
+            "Value": {
+                "id": "38a4c7de-2cfa-4a40-8502-3763026c42e6",
+                "resourcePath": "objects\\o_item_iman\\o_item_iman.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -575,6 +591,14 @@
             }
         },
         {
+            "Key": "67ec3962-fc11-48b3-a7a3-11ef91bebdbc",
+            "Value": {
+                "id": "4129333e-7c42-49bb-a299-9bde29c565b8",
+                "resourcePath": "sprites\\cucaracha\\cucaracha.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6a3ca4da-700f-4755-92da-a3425a318e6e",
             "Value": {
                 "id": "78ae6365-6205-48c3-86f3-3f4fadc0bbd7",
@@ -611,6 +635,14 @@
             "Value": {
                 "id": "3cd0d761-ce59-4eaf-b46d-2fbfd5830248",
                 "resourcePath": "sprites\\botonOK1\\botonOK1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7081cb6f-580d-4f7c-a921-3601823588b1",
+            "Value": {
+                "id": "35bed64d-f764-4204-97d9-6b523e4eec83",
+                "resourcePath": "sprites\\Global_Jam___bomba_nuclear\\Global_Jam___bomba_nuclear.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -799,11 +831,11 @@
             }
         },
         {
-            "Key": "8eefb750-8b59-4c9e-afda-c7dda6113110",
+            "Key": "90f94b70-e7bc-47d3-a6dd-1b8be3bf7b64",
             "Value": {
-                "id": "3dc414f6-f444-42b3-aef1-6c50993c43b1",
-                "resourcePath": "objects\\o_asteroide_3\\o_asteroide_3.yy",
-                "resourceType": "GMObject"
+                "id": "50e7d4dd-e7c0-4734-8b05-ff596325716e",
+                "resourcePath": "sprites\\s_reptil_grande\\s_reptil_grande.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -828,6 +860,14 @@
                 "id": "16879993-4927-4330-8b87-3497cebc603e",
                 "resourcePath": "objects\\o_luna\\o_luna.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9712bc5d-edde-4be3-b341-0426758b385f",
+            "Value": {
+                "id": "472e0fa8-b9d5-4de3-80d9-71f24b7ccc78",
+                "resourcePath": "sprites\\s_humano_grande\\s_humano_grande.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -991,11 +1031,27 @@
             }
         },
         {
+            "Key": "ba1ffebe-408e-4d65-af31-456256a2b887",
+            "Value": {
+                "id": "9af64805-98c5-47f3-8f4d-6a5789f42216",
+                "resourcePath": "objects\\o_item_bomba\\o_item_bomba.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc38750b-bd16-43da-b05b-28395f03d300",
             "Value": {
                 "id": "967e665c-a6fe-4067-9d9c-7dd1e25b6972",
                 "resourcePath": "views\\bc38750b-bd16-43da-b05b-28395f03d300.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bc3f20de-4f12-47f7-ba0b-4f02c666aa19",
+            "Value": {
+                "id": "c092a287-5238-4322-a0f0-dd84a036f19c",
+                "resourcePath": "sprites\\s_lluvia_de_asteroides\\s_lluvia_de_asteroides.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1012,6 +1068,14 @@
                 "id": "657f45b4-df95-445b-94be-cd719d317c4c",
                 "resourcePath": "objects\\o_planeta_muerto\\o_planeta_muerto.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c18a9efe-84e4-4e4d-81ee-d6c78a6eec11",
+            "Value": {
+                "id": "794a194d-3f98-455b-921f-e9ac64ee64ee",
+                "resourcePath": "sprites\\Global_Jam___Iman\\Global_Jam___Iman.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1063,14 +1127,6 @@
             }
         },
         {
-            "Key": "ca2298a8-9a78-4a49-b225-9de8ee94da73",
-            "Value": {
-                "id": "89fc6970-3049-488f-98fa-93c13ccc7b57",
-                "resourcePath": "sprites\\sprite67\\sprite67.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "cac134db-9dd2-407b-bdd5-5c2ab53f94e8",
             "Value": {
                 "id": "da772bec-a147-4ae4-8fe8-c0f03456d0ea",
@@ -1103,14 +1159,6 @@
             }
         },
         {
-            "Key": "cd299aff-493d-43de-8d8f-564e07148e35",
-            "Value": {
-                "id": "5a00a493-97e0-4289-b81b-2e84957a77dd",
-                "resourcePath": "objects\\o_asteroide_2\\o_asteroide_2.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cd4b7842-a6bb-4647-a403-3783529eec29",
             "Value": {
                 "id": "cfff7bb3-c573-42b6-b2dd-80a2de89f0af",
@@ -1131,6 +1179,14 @@
             "Value": {
                 "id": "8e6bc0e1-7b1f-4ab6-9ca8-64e657cd3b70",
                 "resourcePath": "sprites\\opciones2\\opciones2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d5251394-8b07-4098-a7d3-dfa769caf193",
+            "Value": {
+                "id": "3af0501b-7460-4c5e-8bb3-669d15436973",
+                "resourcePath": "sprites\\HumanosTEXTO\\HumanosTEXTO.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1239,6 +1295,14 @@
             }
         },
         {
+            "Key": "e9445e2c-20a6-4bbe-8770-7bb848a55878",
+            "Value": {
+                "id": "7521f47d-6866-4df4-a428-ac4bb8bbf69e",
+                "resourcePath": "sprites\\s_robot\\s_robot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "eaf37548-7918-49ec-a6fe-b9dc23df3734",
             "Value": {
                 "id": "a4a667bc-25e0-4bc3-8b88-67c864bebed2",
@@ -1340,6 +1404,14 @@
                 "id": "bdcc841a-3651-483c-b7fa-3648ecc3121a",
                 "resourcePath": "scripts\\draw_circular_bar\\draw_circular_bar.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f94e5ca0-038e-446c-816e-eee7619cc1a1",
+            "Value": {
+                "id": "9da7bfb6-86d7-452a-9e44-d3641db21c22",
+                "resourcePath": "sprites\\reptilesTEXTO\\reptilesTEXTO.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
