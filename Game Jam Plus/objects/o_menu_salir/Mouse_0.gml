@@ -1,0 +1,1 @@
+sprite_index = Men__Bot_n_Salir_1

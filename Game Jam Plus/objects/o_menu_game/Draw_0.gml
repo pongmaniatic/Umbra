@@ -14,3 +14,5 @@ if global.turno = 1
 	draw_text(x+64+32+32, y+64+64+32,"Turno de ")
 	draw_text(x+64+32+32, y+64+64+32+32,"Cien")
 	}	
+	
+

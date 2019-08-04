@@ -1,3 +1,4 @@
 
-hp = 40
+hp = 20
 
+dead = false
