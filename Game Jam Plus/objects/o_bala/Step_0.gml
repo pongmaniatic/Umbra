@@ -19,12 +19,13 @@ if place_meeting(x,y,o_borde_superior)
 	}
 if bounce > max_bounce
 	{
-	instance_destroy(other)
 	audio_play_sound(Colision,1,false)
 	if global.turno = 0
 		{
 		global.turno = 1
 		o_asteroide_1.activar = true
+		if (instance_exists(o_planeta_1)){o_planeta_1.activar = 1};
+		if (instance_exists(o_planeta_2)){o_planeta_2.activar = 1};
 		if instance_exists(o_nave_tienda)
 			{
 			o_nave_tienda.Etapa += 1
@@ -34,6 +35,8 @@ if bounce > max_bounce
 		{
 		global.turno = 0
 		o_asteroide_1.activar = true
+		if (instance_exists(o_planeta_1)){o_planeta_1.activar = 1};
+		if (instance_exists(o_planeta_2)){o_planeta_2.activar = 1};
 		if instance_exists(o_nave_tienda)
 			{
 			o_nave_tienda.Etapa += 1

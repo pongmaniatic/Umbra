@@ -1,15 +1,21 @@
 
 saltito_al_disparar = false;
-hp = 21;
+hp = 1;
 
 dead = false;
 tapped = 0;
 
 
-item_gancho = false
-item_bomba = false
-item_lluvia = false
-item_iman = false	
+item_gancho = true
+item_bomba = true
+item_lluvia = true
+item_iman = true
+
+activar = false;
+radious = 400;
+angle = 0;
+x = o_sol.x+lengthdir_x(radious,angle);
+y = o_sol.y+lengthdir_y(radious,angle);
 	
 
 if global.personaje_1 = 1

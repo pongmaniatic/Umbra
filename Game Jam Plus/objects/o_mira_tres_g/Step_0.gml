@@ -35,8 +35,8 @@ if trabajo_terminado = false
 	}
 if trabajo_terminado
 	{
-	o_planeta_1.tapped = -1;
-	o_planeta_2.tapped = -1;
+	if (instance_exists(o_planeta_1)){o_planeta_1.tapped = 0};
+	if (instance_exists(o_planeta_2)){o_planeta_2.tapped = 0};
 	tiempo = alarm_get(0)
 	if tiempo < 0
 		{

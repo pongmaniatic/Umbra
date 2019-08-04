@@ -3,13 +3,19 @@
 
 // Inherit the parent event
 event_inherited();
-
+if (image_index >= 14){ image_speed = 0}
 if (hp < 0)
 	{
-		instance_destroy();
-		instance_create_depth(x,y,100,o_planeta_muerto)
+		sprite_index = Explosi_n;	
 	}
-
+	
+if activar
+{
+	angle -=15;
+	x = o_sol.x+lengthdir_x(radious,angle);
+	y = o_sol.y+lengthdir_y(radious,angle);
+	activar = false;
+}
 
 if global.turno = 0
 	{

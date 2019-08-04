@@ -5,16 +5,6 @@
     "name": "o_item_lluvia_de_asteroides",
     "eventList": [
         {
-            "id": "f6e87dee-bd51-4a94-9d3d-192e14d5a7a0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "09d0abbc-110c-4de0-a49b-2d738ebdaada"
-        },
-        {
             "id": "c70686ff-a4f8-4742-81b5-85e2d05ac02a",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,36 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "09d0abbc-110c-4de0-a49b-2d738ebdaada"
+        },
+        {
+            "id": "a93135f5-e5bd-4631-8a4b-4aac976251f6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "09d0abbc-110c-4de0-a49b-2d738ebdaada"
+        },
+        {
+            "id": "90b1198d-470c-44e2-b4ad-96fe63d967f5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "09d0abbc-110c-4de0-a49b-2d738ebdaada"
+        },
+        {
+            "id": "e3ee1b8b-1325-49cf-961a-c145e16d2342",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "09d0abbc-110c-4de0-a49b-2d738ebdaada"
         }
     ],
@@ -43,6 +63,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "bc3f20de-4f12-47f7-ba0b-4f02c666aa19",
+    "spriteId": "00519794-c81b-4ae0-acc5-09efca571cf1",
     "visible": true
 }
