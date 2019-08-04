@@ -4,29 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
-if hp < 0 and dead = false
+if (hp < 0)
 	{
-	dead = true
-	sprite_index = Explosi_n
+		instance_destroy();
+		instance_create_depth(x,y,100,o_planeta_muerto)
 	}
-	
-if 	dead = true
-	{
-	if image_number > image_index -1
-		{
-		instance_destroy(self)
-		}
-	}
-	
-if saltito_al_disparar = false	
-	{
-	sprite_index = planetarosado
-	
-	}
-	
-	
-if 	saltito_al_disparar = true
-	{
-	saltito_al_disparar = false	
-	sprite_index = planetarosado_grande
-	}
+
+

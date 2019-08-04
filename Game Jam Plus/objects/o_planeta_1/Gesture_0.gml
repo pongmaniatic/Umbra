@@ -1,7 +1,7 @@
 
 
 
-if global.turno = 0
+if global.turno == 0 && tapped == 0 && !instance_exists(o_bala)
 	{
 	/// @description Disparo
 
@@ -17,5 +17,8 @@ if global.turno = 0
 	{
 		rot_speed = other.rot_speed;
 	};
+	tapped = tapped == 1;
 	}
+
+tapped++
 

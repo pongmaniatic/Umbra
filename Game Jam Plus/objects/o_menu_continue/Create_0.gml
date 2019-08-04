@@ -1,0 +1,2 @@
+
+personajes_elegidos = false

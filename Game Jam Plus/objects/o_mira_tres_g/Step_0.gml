@@ -1,9 +1,9 @@
 /// @description Paso a la siguiente mira
 if trabajo_terminado = false
 	{
-	space_check = keyboard_check_pressed(vk_space);
+	click_check = mouse_check_button_pressed(mb_left);
 
-	if (must_rotate) and (!space_check)
+	if (must_rotate) and (!click_check)
 	{
 		image_angle += rot_speed;
 		if (abs(init_image_angle-image_angle) >= abs(arc/2 - o_mira_dos_g.arc/2))
@@ -13,7 +13,7 @@ if trabajo_terminado = false
 		};
 	};
 
-	else if (space_check)
+	else if (click_check)
 	{
 		must_rotate = false;
 		trabajo_terminado = true
@@ -33,8 +33,10 @@ if trabajo_terminado = false
 			}		
 	};
 	}
-if trabajo_terminado = true
+if trabajo_terminado
 	{
+	o_planeta_1.tapped = -1;
+	o_planeta_2.tapped = -1;
 	tiempo = alarm_get(0)
 	if tiempo < 0
 		{

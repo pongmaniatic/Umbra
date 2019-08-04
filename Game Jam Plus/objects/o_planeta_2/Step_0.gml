@@ -4,17 +4,9 @@
 // Inherit the parent event
 event_inherited();
 
-if hp < 0 and dead = false
+if (hp < 0)
 	{
-	dead = true
-	sprite_index = Explosi_n
-	}
-		
-if 	dead = true
-	{
-	if image_number > image_index -1
-		{
-		instance_destroy(self)
-		}
+		instance_destroy();
+		instance_create_depth(x,y,100,o_planeta_muerto)
 	}
 	

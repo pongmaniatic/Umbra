@@ -1,6 +1,3 @@
-
-
-
 if activar = true
 	{
 	activar = false
@@ -10,7 +7,6 @@ if activar = true
 	x = posicion_x
 	y =  posicion_y
 	}
-
 if place_meeting(x,y,o_planeta_1) or place_meeting(x,y,o_planeta_2) or place_meeting(x,y,o_sol)
 	{
 	activar = false

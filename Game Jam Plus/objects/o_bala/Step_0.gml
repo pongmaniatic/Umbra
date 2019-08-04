@@ -17,7 +17,7 @@ if place_meeting(x,y,o_borde_superior)
 	vspeed = -vspeed
 	bounce += 1
 	}
-if bounce > 5
+if bounce > max_bounce
 	{
 	instance_destroy(other)
 	audio_play_sound(Colision,1,false)
