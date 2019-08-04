@@ -1,4 +1,4 @@
-
+depth = -100	
 
 
 if global.turno == 1  && !instance_exists(o_bala) && !instance_exists(o_mira_uno_g)
