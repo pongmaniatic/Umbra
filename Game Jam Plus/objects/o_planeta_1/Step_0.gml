@@ -17,3 +17,16 @@ if 	dead = true
 		instance_destroy(self)
 		}
 	}
+	
+if saltito_al_disparar = false	
+	{
+	sprite_index = planetarosado
+	
+	}
+	
+	
+if 	saltito_al_disparar = true
+	{
+	saltito_al_disparar = false	
+	sprite_index = planetarosado_grande
+	}

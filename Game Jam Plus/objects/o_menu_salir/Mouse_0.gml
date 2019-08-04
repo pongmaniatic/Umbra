@@ -1,1 +1,1 @@
-sprite_index = Men__Bot_n_Salir_1
+sprite_index = Men__bot_n_salir_2

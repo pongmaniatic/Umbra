@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "616c1a2b-a1f3-456b-a6f7-2522cf34cb83",
+            "Value": {
+                "id": "85c3977e-8287-4d82-b7ec-84ba4fae5835",
+                "resourcePath": "sprites\\planetarosado_grande\\planetarosado_grande.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61daa58a-85b8-440f-a6f5-40113778e4f4",
             "Value": {
                 "id": "b1f3b0dd-8baf-4533-abab-ba7031c8e47f",
@@ -843,6 +851,14 @@
             "Value": {
                 "id": "34ac970b-9324-4130-b964-5644084b2b71",
                 "resourcePath": "objects\\o_boton_turno\\o_boton_turno.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cc6d2511-7b76-4ae9-ad48-ba3760d615c7",
+            "Value": {
+                "id": "b77657cc-545e-402c-ad2e-b624f2c7027a",
+                "resourcePath": "objects\\o_moon_item\\o_moon_item.yy",
                 "resourceType": "GMObject"
             }
         },

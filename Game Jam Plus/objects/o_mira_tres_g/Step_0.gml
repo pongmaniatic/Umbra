@@ -23,6 +23,14 @@ if trabajo_terminado = false
 		{
 			direction = other.image_angle;
 		};
+		if place_meeting(x,y,o_planeta_1)
+			{
+			o_planeta_1.saltito_al_disparar = true
+			}
+		if place_meeting(x,y,o_planeta_2)
+			{
+			o_planeta_2.saltito_al_disparar = true
+			}		
 	};
 	}
 if trabajo_terminado = true
