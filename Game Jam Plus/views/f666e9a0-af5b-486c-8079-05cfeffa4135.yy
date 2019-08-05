@@ -17,7 +17,7 @@
         "868b5147-af02-44e4-9823-ef5c46dff41f"
     ],
     "filterType": "GMSprite",
-    "folderName": "idea_1",
+    "folderName": "plataformer",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -10,7 +10,7 @@
         "4083ca43-50c2-4a68-9e4a-9e8c1d6af662"
     ],
     "filterType": "GMRoom",
-    "folderName": "idea_1",
+    "folderName": "plataformer",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

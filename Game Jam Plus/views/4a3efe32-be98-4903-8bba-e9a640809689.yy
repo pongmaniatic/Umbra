@@ -4,10 +4,13 @@
     "mvc": "1.1",
     "name": "4a3efe32-be98-4903-8bba-e9a640809689",
     "children": [
-        "655a70a3-7ba6-4ded-ab52-e5bea3bd0abf"
+        "d5d99e7a-fda5-4964-b71f-dcfa8642c6f8",
+        "13e60591-29ad-413f-8368-5e24c5d6be09",
+        "c29651f7-5ca3-4f8f-a23e-6927556ac3b6",
+        "a8baa97c-efba-4b67-857c-19be56d73fdd"
     ],
     "filterType": "GMSprite",
-    "folderName": "tilesets",
+    "folderName": "Fondos",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

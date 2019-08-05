@@ -15,7 +15,7 @@
         "e0767887-45fb-40ed-a0e3-8f237bb5c145"
     ],
     "filterType": "GMObject",
-    "folderName": "idea_1",
+    "folderName": "plataformer",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

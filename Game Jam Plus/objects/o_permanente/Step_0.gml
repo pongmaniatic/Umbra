@@ -18,19 +18,19 @@ if activar_recibir_item = true
 		{
 		if item_recibido_numero = 0
 			{
-			o_planeta_1.item_gancho = true
+			o_planeta_1.item_gancho = false
 			}
 		if item_recibido_numero = 1
 			{
-			o_planeta_1.item_bomba = true
+			o_planeta_1.item_bomba = false
 			}
 		if item_recibido_numero = 2
 			{
-			o_planeta_1.item_lluvia = true
+			o_planeta_1.item_lluvia = false
 			}
 		if item_recibido_numero = 3
 			{
-			o_planeta_1.item_iman = true
+			o_planeta_1.item_iman = false
 			}
 		}
 
@@ -38,19 +38,19 @@ if activar_recibir_item = true
 		{
 		if item_recibido_numero = 0
 			{
-			o_planeta_2.item_gancho = true
+			o_planeta_2.item_gancho = false
 			}
 		if item_recibido_numero = 1
 			{
-			o_planeta_2.item_bomba = true
+			o_planeta_2.item_bomba = false
 			}
 		if item_recibido_numero = 2
 			{
-			o_planeta_2.item_lluvia = true
+			o_planeta_2.item_lluvia = false
 			}
 		if item_recibido_numero = 3
 			{
-			o_planeta_2.item_iman = true
+			o_planeta_2.item_iman = false
 			}
 		}
 	}
