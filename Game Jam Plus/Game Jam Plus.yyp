@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "24411141-3fdc-4ebd-9504-899c074766a0",
+            "Value": {
+                "id": "b1021b21-2734-418e-8263-66c29850266a",
+                "resourcePath": "sprites\\s_planeta_2_chico\\s_planeta_2_chico.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24927179-957b-4e42-9d21-ad9f90b447d7",
             "Value": {
                 "id": "893cfd12-cde5-4f55-9120-82d74a398801",
@@ -642,7 +650,7 @@
             "Key": "5d65c8fc-f4bb-4f3d-973c-559eac3b45fc",
             "Value": {
                 "id": "cad80f87-fad3-465d-85dc-d925fd345c4f",
-                "resourcePath": "sprites\\s_planeta_oficial_1\\s_planeta_oficial_1.yy",
+                "resourcePath": "sprites\\s_planeta_1\\s_planeta_1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -652,14 +660,6 @@
                 "id": "dba52a66-80fe-41d9-a4f1-cffc191b18e4",
                 "resourcePath": "views\\60ed644d-967b-40ab-9b74-405cb402f84b.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "616c1a2b-a1f3-456b-a6f7-2522cf34cb83",
-            "Value": {
-                "id": "85c3977e-8287-4d82-b7ec-84ba4fae5835",
-                "resourcePath": "sprites\\planetarosado_grande\\planetarosado_grande.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -828,14 +828,6 @@
                 "id": "5ef18ed9-bd65-467c-9254-5b8b5e00f760",
                 "resourcePath": "views\\766d08fa-d389-4583-b2a7-e817ed2e0ac3.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7787567d-7a51-4e79-9919-8d7eaa8c175b",
-            "Value": {
-                "id": "2862a937-b31b-43f2-ba36-bffb6713bd46",
-                "resourcePath": "sprites\\s_planeta_oficial_2\\s_planeta_oficial_2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1071,6 +1063,14 @@
             }
         },
         {
+            "Key": "9869f4bb-4607-44a9-bb9a-5224e6ebba8c",
+            "Value": {
+                "id": "d359d38f-8d6a-4fd9-af52-80b6c8be53dd",
+                "resourcePath": "views\\9869f4bb-4607-44a9-bb9a-5224e6ebba8c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9c96861b-c70a-4867-9d9a-f4f69c75b7d8",
             "Value": {
                 "id": "33e92422-a2ab-4763-8e34-9436e9972385",
@@ -1223,14 +1223,6 @@
             }
         },
         {
-            "Key": "b1fe3652-b7d4-4828-afd5-f9f4adf12a7a",
-            "Value": {
-                "id": "6e2af479-27d8-4060-abc7-4d9801a70686",
-                "resourcePath": "views\\b1fe3652-b7d4-4828-afd5-f9f4adf12a7a.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "b433c163-000c-4011-8e8d-22526452b444",
             "Value": {
                 "id": "49a7b20a-c63d-478c-934f-199d994475d5",
@@ -1252,6 +1244,14 @@
                 "id": "9af64805-98c5-47f3-8f4d-6a5789f42216",
                 "resourcePath": "objects\\o_item_bomba\\o_item_bomba.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "baea4788-8e97-4bb1-bff4-0c1c9c089673",
+            "Value": {
+                "id": "42bf6fcf-a3a0-481e-b2fb-c2b61663eb78",
+                "resourcePath": "sprites\\s_planeta_1_chico\\s_planeta_1_chico.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1316,14 +1316,6 @@
                 "id": "d3938e3b-fcf5-4c61-bb1f-f750b1947113",
                 "resourcePath": "sprites\\s_colision_player_derecha\\s_colision_player_derecha.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c978e19d-d6c9-45e5-a4b7-ff6cc7b15bf7",
-            "Value": {
-                "id": "ce144397-4c89-4b25-9f48-d7c8615326b1",
-                "resourcePath": "objects\\o_planetas\\o_planetas.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1410,7 +1402,7 @@
             "Key": "d6a20a14-358f-4520-9c33-ba16b2944251",
             "Value": {
                 "id": "c7206acd-ff21-48ca-9f18-d12bc68f765a",
-                "resourcePath": "sprites\\planetarosado\\planetarosado.yy",
+                "resourcePath": "sprites\\s_planeta_2\\s_planeta_2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1527,14 +1519,6 @@
             }
         },
         {
-            "Key": "e6db2411-61fa-41b2-9343-321b9b6f816d",
-            "Value": {
-                "id": "dd69ebb8-891a-4f2e-b85e-f2caafab34e8",
-                "resourcePath": "sprites\\Global_Jam__planeta236\\Global_Jam__planeta236.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e9445e2c-20a6-4bbe-8770-7bb848a55878",
             "Value": {
                 "id": "7521f47d-6866-4df4-a428-ac4bb8bbf69e",
@@ -1563,6 +1547,14 @@
             "Value": {
                 "id": "8354cd2d-7ae2-4ed5-9a6e-110d53cfc05e",
                 "resourcePath": "sprites\\_3cucaracha_copy\\_3cucaracha_copy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ebe9c426-7de3-4cd7-b1ce-dadae3dee8a0",
+            "Value": {
+                "id": "8d356553-49d7-4265-ba98-76f2df49d62b",
+                "resourcePath": "sprites\\s_asteroide_1\\s_asteroide_1.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -1,4 +1,5 @@
-/// @description Paso a la siguiente mira
+
+
 if trabajo_terminado = false
 {
 	click_check = mouse_check_button_pressed(mb_left);

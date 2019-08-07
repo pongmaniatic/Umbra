@@ -1,21 +1,21 @@
-/// @description Insert description here
-// You can write your code in this editor
 
-// Inherit the parent event
-event_inherited();
-if (image_index >= 14){ image_speed = 0}
+if (image_index >= 14)
+	{
+	image_speed = 0
+	}
+
 if (hp < 0)
 	{
 		sprite_index = Explosi_n;	
 	}
 	
-if activar
-{
-	angle -=15;
-	x = o_sol.x+lengthdir_x(radious,angle);
-	y = o_sol.y+lengthdir_y(radious,angle);
-	activar = false;
-}
+//if activar = true
+//	{
+//		angle -=15;
+//		x = o_sol.x+lengthdir_x(radious,angle);
+//		y = o_sol.y+lengthdir_y(radious,angle);
+//		activar = false;
+//	}
 
 if global.turno = 0
 	{

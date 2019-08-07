@@ -1,5 +1,6 @@
-/// @description Paso a la siguiente mira
 
+
+depth = -100
 click_check = mouse_check_button_pressed(mb_left);
 
 if mouse_check_button_released(mb_left)
