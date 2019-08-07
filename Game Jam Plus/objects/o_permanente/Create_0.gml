@@ -13,10 +13,4 @@ global.personaje_2 = 0
 activar_recibir_item = false
 
 
-<<<<<<< HEAD
-//Estados
-Estado_win = false
-Estado_turno = true
-Estado_pasando_turno = false
-=======
->>>>>>> parent of eef8f01... mas cambios
+global.turno = 0

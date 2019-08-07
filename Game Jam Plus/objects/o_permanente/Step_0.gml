@@ -55,14 +55,7 @@ if activar_recibir_item = true
 		}
 	}
 
-if !instance_exists(o_planeta_1) or !instance_exists(o_planeta_2)
-	{
-	Estado_win = true
-	}
 
-if Estado_win = true
-	{
-	room_goto(0)
-	}
+
 
 
