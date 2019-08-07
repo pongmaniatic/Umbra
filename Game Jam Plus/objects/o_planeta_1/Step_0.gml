@@ -8,7 +8,7 @@ if hp < 0
 
 
 //esto causa que al terminar la animacion de muerte no se vuelva a repetir
-if image_index >= 16 and dead = true
+if image_index >= 28 and dead = true
 	{
 	image_speed = 0
 	}

@@ -1,9 +1,8 @@
-depth = 100
 
 activar = false;
 
 // vida inicial del planeta
-hp = 21;
+hp = 2;
 // vida maxima del planeta
 Max_hp = 21
 
@@ -34,4 +33,6 @@ if global.personaje_1 = 2
 	{
 	sprite_index = s_planeta_1
 	}	
+
+
 

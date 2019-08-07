@@ -1,4 +1,4 @@
-// esto se usara para determinar su posicion alrededor del sol
-posicion_respecto_al_sol = 0
 
+vueltas_al_sol = 0
+Etapa = round(random_range(0,7)) 
 

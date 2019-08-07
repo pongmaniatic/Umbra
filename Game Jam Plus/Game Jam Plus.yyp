@@ -50,7 +50,7 @@
             "Key": "01f6ab0b-237a-469a-9e70-f82a722d98f8",
             "Value": {
                 "id": "7b86acdb-af97-42fc-98f9-7c4f70ae5b4a",
-                "resourcePath": "sprites\\s_black_hole\\s_black_hole.yy",
+                "resourcePath": "sprites\\s_black_hole_placeholder\\s_black_hole_placeholder.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -228,14 +228,6 @@
                 "id": "b2991359-7ed7-4bdb-838f-09907f0109cd",
                 "resourcePath": "objects\\o_bala\\o_bala.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "1dc62af4-47b6-48b6-ac7c-1eeed0d1dc3e",
-            "Value": {
-                "id": "cb21b02d-f1bc-4730-b106-dfe198a9c834",
-                "resourcePath": "scripts\\teleport_asteroide\\teleport_asteroide.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -551,6 +543,14 @@
             }
         },
         {
+            "Key": "4bbcfee2-1002-4216-ae62-1390e00440ac",
+            "Value": {
+                "id": "0642a1e7-e9af-40bd-80bd-91687a4c5688",
+                "resourcePath": "objects\\o_turno\\o_turno.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4d3b4287-6f30-4582-a888-c2257f0260f1",
             "Value": {
                 "id": "82b505cc-2d44-4633-8dec-960a73c9c2f5",
@@ -714,7 +714,7 @@
             "Key": "670545ca-45c7-45bd-99c3-b9a80a312ebb",
             "Value": {
                 "id": "b7882a33-178e-4b84-9e15-ae90e8f2633a",
-                "resourcePath": "sprites\\s_nave\\s_nave.yy",
+                "resourcePath": "sprites\\Global_Jam__Nave\\Global_Jam__Nave.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1583,14 +1583,6 @@
             }
         },
         {
-            "Key": "eded97be-dc4c-4ec3-8a3b-184b4ddcf0cf",
-            "Value": {
-                "id": "531d3d7e-016a-4008-80f6-eea1c527ee3e",
-                "resourcePath": "sprites\\s_black_hole_appear\\s_black_hole_appear.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f19d9c21-c272-41b1-94b8-be4c45735657",
             "Value": {
                 "id": "d6f95301-4783-47b7-8e48-0bd88948a4fb",
@@ -1697,8 +1689,7 @@
     ],
     "script_order": [
         "f942bf3f-783d-47a5-b823-df8e82f83301",
-        "512d97f2-c797-491a-946a-7f9917588d81",
-        "1dc62af4-47b6-48b6-ac7c-1eeed0d1dc3e"
+        "512d97f2-c797-491a-946a-7f9917588d81"
     ],
     "tutorial": ""
 }

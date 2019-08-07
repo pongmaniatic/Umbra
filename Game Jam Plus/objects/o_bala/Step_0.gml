@@ -26,6 +26,10 @@ if bounce > max_bounce
 		o_asteroide_1.activar = true
 		if (instance_exists(o_planeta_1)){o_planeta_1.activar = 1};
 		if (instance_exists(o_planeta_2)){o_planeta_2.activar = 1};
+		if instance_exists(o_nave_tienda)
+			{
+			o_nave_tienda.Etapa += 1
+			}
 		}
 	else
 		{
@@ -33,6 +37,10 @@ if bounce > max_bounce
 		o_asteroide_1.activar = true
 		if (instance_exists(o_planeta_1)){o_planeta_1.activar = 1};
 		if (instance_exists(o_planeta_2)){o_planeta_2.activar = 1};
+		if instance_exists(o_nave_tienda)
+			{
+			o_nave_tienda.Etapa += 1
+			}
 		}
 	instance_destroy(self)
 	}

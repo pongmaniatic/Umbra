@@ -4,22 +4,16 @@ if keyboard_check(vk_escape)
 	{
 	game_end();
 	}
-//cerrar nivel
+
 if keyboard_check(ord("R"))
 	{
 	room_restart()
 	}
 
-//Esto se activa cuando se recibe un item 
 if activar_recibir_item = true
 	{
-	//esto causa que la activacion de obtener item solo cause 1 item por activacion
 	activar_recibir_item = false
-	
-	//esto randomiza cual item se encontrara
 	item_recibido_numero = round(random_range(0,3))
-	
-	//si es el planeta 1 entonces activa uno de estos items
 	if global.turno = 0
 		{
 		if item_recibido_numero = 0
@@ -39,8 +33,7 @@ if activar_recibir_item = true
 			o_planeta_1.item_iman = false
 			}
 		}
-		
-	//si es el planeta 2 entonces activa uno de estos items
+
 	if global.turno = 1
 		{
 		if item_recibido_numero = 0

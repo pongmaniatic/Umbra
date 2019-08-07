@@ -34,4 +34,3 @@ if direccion_look = 1
 	
 //esto da un angulo inicial del sprite
 image_angle = round(random_range(0,360))
-
