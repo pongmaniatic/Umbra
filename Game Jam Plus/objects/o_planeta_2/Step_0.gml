@@ -1,11 +1,17 @@
 
-if (image_index >= 14){ image_speed = 0}
-
-if (hp < 0)
+//esto se activa cuando el planeta pierde toda la vida
+if hp < 0
 	{
-		sprite_index = Explosi_n;	
+	sprite_index = Explosi_n;	
+	dead = true
 	}
-	
+
+//esto causa que al terminar la animacion de muerte no se vuelva a repetir
+if image_index >= 28 and dead = true
+	{
+	image_speed = 0
+	}
+
 //if activar = true
 //	{
 //		angle -=15;

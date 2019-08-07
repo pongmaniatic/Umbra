@@ -1191,14 +1191,6 @@
             }
         },
         {
-            "Key": "aec61473-67bb-4ca0-a634-2491ad4c2558",
-            "Value": {
-                "id": "4a4e9a94-8062-496d-80fc-a463baf8d335",
-                "resourcePath": "sprites\\sol\\sol.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "afadc99d-cd40-4b84-8985-f2afe817590d",
             "Value": {
                 "id": "197420ae-42cc-429f-8252-6919be596376",
