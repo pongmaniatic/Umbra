@@ -7,7 +7,7 @@ if hp < 0
 	}
 
 //esto causa que al terminar la animacion de muerte no se vuelva a repetir
-if image_index >= 28 and dead = true
+if image_index >= 16 and dead = true
 	{
 	image_speed = 0
 	}
@@ -20,6 +20,8 @@ if image_index >= 28 and dead = true
 //		activar = false;
 //	}
 
+
+// Esto crear los objetos del inventario en el menu segun lo que el planeta posee
 if global.turno = 1
 	{
 	if item_gancho = true and !instance_exists(o_moon_item)
@@ -28,9 +30,7 @@ if global.turno = 1
 			{
 			creado_por = 1
 			}
-		
 		}
-	
 	if item_bomba = true and !instance_exists(o_item_bomba)
 		{
 		with(instance_create_depth(x,y,-50,o_item_bomba))
@@ -38,7 +38,6 @@ if global.turno = 1
 			creado_por = 1
 			}
 		}
-	
 	if item_lluvia = true and !instance_exists(o_item_lluvia_de_asteroides)
 		{
 		with(instance_create_depth(x,y,-50,o_item_lluvia_de_asteroides))
@@ -46,7 +45,6 @@ if global.turno = 1
 			creado_por = 1
 			}
 		}
-	
 	if item_iman = true and !instance_exists(o_item_iman)
 		{
 		with(instance_create_depth(x,y,-50,o_item_iman))

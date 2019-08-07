@@ -1,9 +1,28 @@
 //este es el spin del asteroide
 image_angle += direccion_spin * 0.4
 
+
+while ((distance_to_object(o_sol) < 128) or 
+	  (distance_to_object(o_planeta_1) < 64) or 
+	  (distance_to_object(o_planeta_2) < 64) or 
+	  (distance_to_object(o_black_hole_f_g) < 64) or 
+	  (distance_to_object(o_black_hole_i_g) < 64))
+	{
+	teleport_asteroide(self)
+	}
+if	((distance_to_object(o_sol) >= 128) and 
+	(distance_to_object(o_planeta_1) >= 64) and 
+	(distance_to_object(o_planeta_2) >= 64) and 
+	(distance_to_object(o_black_hole_f_g) >= 64) and 
+	(distance_to_object(o_black_hole_i_g) >= 64))
+	{
+	image_alpha = 256
+	}
+
 // esto ocurre una vez por activacion, y causa que el asteroide cambie de lugar, sprite y spin
 if activar = true
 	{
+	image_alpha = 0	
 	//esto randomiza la posicion del asteroide	
 	activar = false;
 	posicion_x = random_range(7,28)*64
@@ -43,3 +62,4 @@ if activar = true
 		direccion_spin = 1
 		}
 	}
+	
