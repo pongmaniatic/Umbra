@@ -1,2 +1,2 @@
-# Umbra
-BLAH BLAH BLAH BLAH
+# mini-jam
+El repositorio de prueba para el jam
