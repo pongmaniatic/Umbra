@@ -2,7 +2,7 @@
 activar = false;
 
 // vida inicial del planeta
-hp = 2;
+hp = 21;
 // vida maxima del planeta
 Max_hp = 21
 
