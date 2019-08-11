@@ -6,7 +6,8 @@
     "children": [
         "48310e8b-34a6-41ca-9ed6-b57da47788f0",
         "0f792ddf-2901-4c7f-8003-8c2de1c70429",
-        "73dd0a16-ecf5-44cb-b82c-0b977a541bbf"
+        "73dd0a16-ecf5-44cb-b82c-0b977a541bbf",
+        "a6bc10b4-9e3d-4be6-90f5-30756fbc1564"
     ],
     "filterType": "GMRoom",
     "folderName": "Umbra",

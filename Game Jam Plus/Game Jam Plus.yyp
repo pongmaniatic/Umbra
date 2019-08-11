@@ -1143,6 +1143,14 @@
             }
         },
         {
+            "Key": "a6bc10b4-9e3d-4be6-90f5-30756fbc1564",
+            "Value": {
+                "id": "b0d22fb5-8b2c-41bf-b4e3-a302f7656629",
+                "resourcePath": "rooms\\Simulacion\\Simulacion.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a7513442-ae50-4178-9851-b17e4299a805",
             "Value": {
                 "id": "8ea09ac5-653a-434a-b75b-82387f098275",
@@ -1620,6 +1628,14 @@
                 "id": "150ddb43-b2d9-4ea3-8b33-5635d3c7955e",
                 "resourcePath": "views\\f5673c1f-9df9-4fb5-9c65-a8e37982f805.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f62072eb-4988-4a9c-9237-974f31b21ef9",
+            "Value": {
+                "id": "e975701c-c0c7-494c-a90d-70dabf2ef852",
+                "resourcePath": "objects\\o_planeta_simulacion\\o_planeta_simulacion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
