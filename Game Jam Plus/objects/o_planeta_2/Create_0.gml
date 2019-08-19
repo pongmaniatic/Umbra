@@ -2,9 +2,9 @@
 activar = false;
 
 // vida inicial del planeta
-hp = 21;
+hp = 11;
 // vida maxima del planeta
-Max_hp = 21
+Max_hp = 11
 
 //esto se hace true
 dead = false;
@@ -33,4 +33,6 @@ if global.personaje_2 = 2
 	{
 	sprite_index = planetareptil
 	}		
+	
+instance_create_depth(x,y,-65,o_bandera_2)	
 

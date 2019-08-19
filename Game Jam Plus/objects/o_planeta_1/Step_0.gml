@@ -4,6 +4,13 @@ if hp < 0
 	{
 	sprite_index = Explosi_n;	
 	dead = true
+	o_permanente.modo_win = true
+	modo_tutorial = false
+	modo_turno_1 = false
+	modo_pasar_turno = false
+	modo_turno_2 = false
+	instance_destroy(o_bandera_1)
+	instance_create_depth(o_sol.x,o_sol.y,-60,o_win_window)
 	}
 
 

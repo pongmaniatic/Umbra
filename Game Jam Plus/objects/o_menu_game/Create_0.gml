@@ -1,5 +1,5 @@
 
+modo_abierto = false
+modo_cerrado = true
 
-
-estado_jugador = 0
-
+instance_create_depth(x+90,y+128,100,o_color_turno)

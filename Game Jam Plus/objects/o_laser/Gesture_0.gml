@@ -1,5 +1,11 @@
 depth = -100	
 
+if instance_exists(o_tutorial)
+	{
+	instance_destroy(o_tutorial)
+	o_permanente.modo_tutorial = false
+	o_permanente.modo_turno_1 = true
+	}
 
 if global.turno == 1  && !instance_exists(o_bala) && !instance_exists(o_mira_uno_g)
 	{
