@@ -1,3 +1,4 @@
+
 //cerrar juego
 if keyboard_check(vk_escape)
 	{
@@ -32,6 +33,7 @@ if activar_recibir_item = true
 			o_planeta_1.item_iman = false
 			}
 		}
+
 	if global.turno = 1
 		{
 		if item_recibido_numero = 0
@@ -53,49 +55,6 @@ if activar_recibir_item = true
 		}
 	}
 
-if modo_tutorial = true
-	{
-	modo_turno_1 = false
-	modo_pasar_turno = false
-	modo_turno_2 = false
-	modo_win = false
-	instance_create_depth(x,y,-60,o_tutorial)
-	}
-	
-if modo_turno_1 = true
-	{
-	modo_tutorial = false
-	modo_pasar_turno = false
-	modo_turno_2 = false
-	modo_win = false
-	}
-	
-if modo_pasar_turno = true
-	{
-	modo_tutorial = false
-	modo_turno_1 = false
-	modo_turno_2 = false
-	modo_win = false
-	}
-	
-if modo_turno_2 = true
-	{
-	modo_tutorial = false
-	modo_turno_1 = false
-	modo_pasar_turno = false
-	modo_win = false
-	}
-	
-if modo_win = true
-	{
-	modo_tutorial = false
-	modo_turno_1 = false
-	modo_pasar_turno = false
-	modo_turno_2 = false
-	}
-	
-	
-	
 
 
 

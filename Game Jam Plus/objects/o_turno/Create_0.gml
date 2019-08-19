@@ -1,1 +1,0 @@
-o_permanente.modo_tutorial = true
