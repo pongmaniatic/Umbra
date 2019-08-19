@@ -2,9 +2,9 @@
 activar = false;
 
 // vida inicial del planeta
-hp = 21;
+hp = 11;
 // vida maxima del planeta
-Max_hp = 21
+Max_hp = 11
 
 //esto es true si es que se tiene el item y falso si no
 item_gancho = false
