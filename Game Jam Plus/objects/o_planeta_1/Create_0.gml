@@ -10,9 +10,9 @@ Max_hp = 11
 dead = false;
 
 //esto es true si es que se tiene el item y falso si no
-item_gancho = false
+item_gancho = true
 item_bomba = false
-item_lluvia = false
+item_lluvia = true
 item_iman = false
 
 // esto pone al planeta en un radio alrededor del sol
