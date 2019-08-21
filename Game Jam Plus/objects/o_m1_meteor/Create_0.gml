@@ -1,4 +1,4 @@
-/// @description vars init
+
 
 rot_speed = 5;
 must_rotate = true;

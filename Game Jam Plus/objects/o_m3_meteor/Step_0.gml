@@ -1,6 +1,4 @@
-
-
-if trabajo_terminado = false
+if (!trabajo_terminado)
 {
 	click_check = mouse_check_button_pressed(mb_left);
 
@@ -17,10 +15,10 @@ if trabajo_terminado = false
 	else if (click_check) 
 	{
 		must_rotate = false;
-		trabajo_terminado = true
-		alarm_set(0,60)
+		trabajo_terminado = true;
+		alarm_set(0, 1*room_speed); // Se prepara alarma para destruir miras en 1 seg.
 		
-		misiles = 4
+		misiles = 4;
 		while (misiles != 0)
 		{
 			misiles -= 1;
@@ -32,15 +30,3 @@ if trabajo_terminado = false
 		};
 	};
 };
-
-if trabajo_terminado
-{
-	tiempo = alarm_get(0);
-	if tiempo < 0
-	{
-		instance_destroy(o_m2_meteor);
-		instance_destroy(o_m1_meteor);
-		image_alpha = 0;
-	};
-};
-

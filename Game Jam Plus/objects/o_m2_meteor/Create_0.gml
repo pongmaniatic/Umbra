@@ -1,4 +1,4 @@
-//// @description vars init
+
 rot_speed = 1.5;
 must_rotate = true;
 spawned_red = false;
