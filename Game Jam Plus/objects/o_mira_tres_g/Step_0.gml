@@ -17,7 +17,7 @@ if trabajo_terminado = false
 	{
 		must_rotate = false;
 		trabajo_terminado = true
-		alarm_set(0,60)
+		alarm_set(0,20)
 		bala = instance_create_depth(x,y,110,o_bala);
 		with (bala)
 		{

@@ -1,4 +1,4 @@
 
-room_goto(0)
+game_end();
 
 

@@ -1,11 +1,11 @@
 
-if o_permanente.modo_turno_1 = true
+if global.turno = 0
 	{
 	image_index = 0
 	}
 
 
-if o_permanente.modo_turno_2 = true
+if global.turno = 1
 	{
 	image_index = 1
 	}

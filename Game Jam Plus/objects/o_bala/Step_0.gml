@@ -1,46 +1,28 @@
-
+//hace que la bala apunte donde se mueve
 image_angle = direction;
+
+//esto comienza a crear un efecto despues de un par de segundos cierto tiempo
 if alarm_get(0) < 0
 	{
-		effect_create_below(ef_spark,x,y,0.5,c_red)
-		effect_create_below(ef_spark,x,y,0.5,c_red)
+	effect_create_below(ef_spark,x,y,0.8,c_red)
 	}
 
+
+//esto causa que rebote
 if place_meeting(x,y,o_borde_lateral)
 	{
 	hspeed = -hspeed
 	bounce += 1
 	}
-
 if place_meeting(x,y,o_borde_superior)
 	{
 	vspeed = -vspeed
 	bounce += 1
 	}
+	
+	
 if bounce > max_bounce
 	{
 	audio_play_sound(Colision,1,false)
-	if global.turno = 0
-		{
-		global.turno = 1
-		o_asteroide_1.activar = true
-		if (instance_exists(o_planeta_1)){o_planeta_1.activar = 1};
-		if (instance_exists(o_planeta_2)){o_planeta_2.activar = 1};
-		if instance_exists(o_nave_tienda)
-			{
-			o_nave_tienda.Etapa += 1
-			}
-		}
-	else
-		{
-		global.turno = 0
-		o_asteroide_1.activar = true
-		if (instance_exists(o_planeta_1)){o_planeta_1.activar = 1};
-		if (instance_exists(o_planeta_2)){o_planeta_2.activar = 1};
-		if instance_exists(o_nave_tienda)
-			{
-			o_nave_tienda.Etapa += 1
-			}
-		}
 	instance_destroy(self)
 	}

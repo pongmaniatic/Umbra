@@ -2,17 +2,17 @@
 activar = false;
 
 // vida inicial del planeta
-hp = 11;
+hp = 21;
 // vida maxima del planeta
-Max_hp = 11
+Max_hp = 21
 
 //esto se hace true
 dead = false;
 
 //esto es true si es que se tiene el item y falso si no
-item_gancho = true
+item_gancho = false
 item_bomba = false
-item_lluvia = true
+item_lluvia = false
 item_iman = false
 
 // esto pone al planeta en un radio alrededor del sol

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_bandera_1",
     "eventList": [
-        
+        {
+            "id": "be2c9452-3551-4057-818d-4d939a8d3b4a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "1837aab7-fdc4-4ab9-92c5-521b43d2b070"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

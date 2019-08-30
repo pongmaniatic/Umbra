@@ -5,16 +5,6 @@
     "name": "o_meteor_shower",
     "eventList": [
         {
-            "id": "5924fbf0-58dc-4beb-88a8-c8123ce41ad7",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 50,
-            "eventtype": 6,
-            "m_owner": "5ac8a563-3ab4-4ab6-a53d-a6955da26fef"
-        },
-        {
             "id": "529b28af-95a8-4a64-85ee-15654be302a6",
             "modelName": "GMEvent",
             "mvc": "1.0",

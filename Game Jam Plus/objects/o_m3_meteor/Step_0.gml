@@ -16,7 +16,7 @@ if (!trabajo_terminado)
 	{
 		must_rotate = false;
 		trabajo_terminado = true;
-		alarm_set(0, 1*room_speed); // Se prepara alarma para destruir miras en 1 seg.
+		alarm_set(0, 20); // Se prepara alarma para destruir miras en 1 seg.
 		
 		misiles = 4;
 		while (misiles != 0)
