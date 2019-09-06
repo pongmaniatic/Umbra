@@ -11,7 +11,8 @@
         "1cf84f5c-0e22-4277-a658-fd777f059348",
         "1717fb1b-cc10-4e72-b1cf-fb6a86111203",
         "49e391e9-3ec8-4cc6-809f-a7e0509d6c50",
-        "a389b169-cf1c-4c69-877b-5027457b5105"
+        "a389b169-cf1c-4c69-877b-5027457b5105",
+        "d33ca25a-d959-4fc3-9099-f533ad720150"
     ],
     "filterType": "GMObject",
     "folderName": "disparar",
