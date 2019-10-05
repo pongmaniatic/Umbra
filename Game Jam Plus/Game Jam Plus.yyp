@@ -418,7 +418,7 @@
             "Key": "2cbfee49-fcb1-4462-9167-b6fa7ad31365",
             "Value": {
                 "id": "f9bbc457-a86c-4ca6-ae52-523c62fdd95a",
-                "resourcePath": "objects\\a_m2_bomb\\a_m2_bomb.yy",
+                "resourcePath": "objects\\o_m2_bomb\\o_m2_bomb.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1498,7 +1498,7 @@
             "Key": "bdbdeb8c-bb37-4667-88fb-bd31f9e6bb24",
             "Value": {
                 "id": "af5dceb5-fcf3-45b3-af84-4589e2b6469e",
-                "resourcePath": "objects\\a_m1_bomb\\a_m1_bomb.yy",
+                "resourcePath": "objects\\o_m1_bomb\\o_m1_bomb.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1898,7 +1898,7 @@
             "Key": "f8350d16-d11a-4fd2-aec5-6c8076aa82bd",
             "Value": {
                 "id": "69313701-675b-492f-9999-c11556ae4f58",
-                "resourcePath": "objects\\a_m3_bomb\\a_m3_bomb.yy",
+                "resourcePath": "objects\\o_m3_bomb\\o_m3_bomb.yy",
                 "resourceType": "GMObject"
             }
         },
