@@ -1,136 +1,90 @@
 {
-    "id": "00519794-c81b-4ae0-acc5-09efca571cf1",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "Lluvia_de_Meteoros_",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 153,
-    "bbox_left": 0,
-    "bbox_right": 148,
-    "bbox_top": 0,
-    "bboxmode": 0,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "ed14ebb5-7207-4f3e-9e31-52f460047bca",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "00519794-c81b-4ae0-acc5-09efca571cf1",
-            "compositeImage": {
-                "id": "9d56ed32-511b-4110-8260-9f23f550ab8c",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "ed14ebb5-7207-4f3e-9e31-52f460047bca",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "a3e5e1aa-9da3-4101-90ac-c48b90b4b36f",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "ed14ebb5-7207-4f3e-9e31-52f460047bca",
-                    "LayerId": "c40ab2db-9ae1-44f4-8ec8-52cef7747d05"
-                }
-            ]
-        },
-        {
-            "id": "061e5071-8490-42ac-8d72-34cb6deef085",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "00519794-c81b-4ae0-acc5-09efca571cf1",
-            "compositeImage": {
-                "id": "37ad7ae1-d2fb-4b39-89c1-343f69301448",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "061e5071-8490-42ac-8d72-34cb6deef085",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "0886ea4e-c1c6-4049-be01-820582e7c139",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "061e5071-8490-42ac-8d72-34cb6deef085",
-                    "LayerId": "c40ab2db-9ae1-44f4-8ec8-52cef7747d05"
-                }
-            ]
-        },
-        {
-            "id": "dbf9fc05-fc87-4ad1-9ba6-7d615dab605e",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "00519794-c81b-4ae0-acc5-09efca571cf1",
-            "compositeImage": {
-                "id": "1519ec0d-48e3-43a8-b361-82ac39d7bdf1",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "dbf9fc05-fc87-4ad1-9ba6-7d615dab605e",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "acf3f2ea-7d58-4c29-8777-232320af90ec",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "dbf9fc05-fc87-4ad1-9ba6-7d615dab605e",
-                    "LayerId": "c40ab2db-9ae1-44f4-8ec8-52cef7747d05"
-                }
-            ]
-        },
-        {
-            "id": "cbcc1342-f7d2-48b7-920d-f8cd14fe597a",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "00519794-c81b-4ae0-acc5-09efca571cf1",
-            "compositeImage": {
-                "id": "61cc55e5-fee7-4a81-b645-e471b47cb407",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "cbcc1342-f7d2-48b7-920d-f8cd14fe597a",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "a00556ca-1997-49c9-a1eb-d31556c66572",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "cbcc1342-f7d2-48b7-920d-f8cd14fe597a",
-                    "LayerId": "c40ab2db-9ae1-44f4-8ec8-52cef7747d05"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 154,
-    "layers": [
-        {
-            "id": "c40ab2db-9ae1-44f4-8ec8-52cef7747d05",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "00519794-c81b-4ae0-acc5-09efca571cf1",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 4,
-    "originLocked": false,
-    "playbackSpeed": 0,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
+  "preMultiplyAlpha": false,
+  "edgeFiltering": false,
+  "collisionTolerance": 0,
+  "swfPrecision": 2.525,
+  "bbox_left": 0,
+  "bbox_right": 148,
+  "bbox_top": 0,
+  "bbox_bottom": 153,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
+  "width": 149,
+  "height": 154,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "swatchColours": null,
+  "gridX": 0,
+  "gridY": 0,
+  "frames": [
+    {"compositeImage":{"FrameId":{"name":"ed14ebb5-7207-4f3e-9e31-52f460047bca","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ed14ebb5-7207-4f3e-9e31-52f460047bca","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":{"name":"c40ab2db-9ae1-44f4-8ec8-52cef7747d05","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Lluvia_de_Meteoros_","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"ed14ebb5-7207-4f3e-9e31-52f460047bca","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"061e5071-8490-42ac-8d72-34cb6deef085","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"061e5071-8490-42ac-8d72-34cb6deef085","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":{"name":"c40ab2db-9ae1-44f4-8ec8-52cef7747d05","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Lluvia_de_Meteoros_","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"061e5071-8490-42ac-8d72-34cb6deef085","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dbf9fc05-fc87-4ad1-9ba6-7d615dab605e","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dbf9fc05-fc87-4ad1-9ba6-7d615dab605e","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":{"name":"c40ab2db-9ae1-44f4-8ec8-52cef7747d05","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Lluvia_de_Meteoros_","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"dbf9fc05-fc87-4ad1-9ba6-7d615dab605e","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cbcc1342-f7d2-48b7-920d-f8cd14fe597a","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cbcc1342-f7d2-48b7-920d-f8cd14fe597a","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"LayerId":{"name":"c40ab2db-9ae1-44f4-8ec8-52cef7747d05","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Lluvia_de_Meteoros_","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","name":"cbcc1342-f7d2-48b7-920d-f8cd14fe597a","tags":[],"resourceType":"GMSpriteFrame",},
+  ],
+  "sequence": {
+    "spriteId": {"name":"Lluvia_de_Meteoros_","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},
+    "timeUnits": 1,
+    "playback": 1,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 149,
-    "xorig": 74,
-    "yorig": 77
+    "autoRecord": true,
+    "volume": 1.0,
+    "length": 4.0,
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"de84b217-e33c-4f91-bf61-812a691b3460","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed14ebb5-7207-4f3e-9e31-52f460047bca","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7e013044-b5dc-4d7f-9ff6-96676efca2b3","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"061e5071-8490-42ac-8d72-34cb6deef085","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1720cb2d-d72d-4bd6-a171-f3ca77ac33e2","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dbf9fc05-fc87-4ad1-9ba6-7d615dab605e","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"eec46e8f-8809-46aa-8f69-dfabf113d836","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cbcc1342-f7d2-48b7-920d-f8cd14fe597a","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
+    "visibleRange": {"x":0.0,"y":0.0,},
+    "lockOrigin": false,
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "backdropImagePath": "",
+    "backdropImageOpacity": 0.5,
+    "backdropWidth": 1920,
+    "backdropHeight": 1080,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "xorigin": 74,
+    "yorigin": 77,
+    "eventToFunction": {},
+    "eventStubScript": null,
+    "parent": {"name":"Lluvia_de_Meteoros_","path":"sprites/Lluvia_de_Meteoros_/Lluvia_de_Meteoros_.yy",},
+    "resourceVersion": "1.3",
+    "name": "",
+    "tags": [],
+    "resourceType": "GMSequence",
+  },
+  "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c40ab2db-9ae1-44f4-8ec8-52cef7747d05","tags":[],"resourceType":"GMImageLayer",},
+  ],
+  "parent": {
+    "name": "items",
+    "path": "folders/Sprites/items.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "Lluvia_de_Meteoros_",
+  "tags": [],
+  "resourceType": "GMSprite",
 }
